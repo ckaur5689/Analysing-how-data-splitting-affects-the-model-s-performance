@@ -88,7 +88,7 @@ data splits (train, validation and test) to ensure I am creating an optimal mode
 For classification models, I would evaluate the model performance using Validation Accuracy, Test Accuracy and Classification Reports. 
 Also understand which of these metrics (Recall or Sensitivity, Specificity, Precision, Negative Prediction Value and Accuracy) matter to my classification problem.
 
-For regression models, I would use measures such as MAE, RMSE, MSE and Adjusted R2 to evaluate the different splits. 
+For regression models, I would use measures such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Mean Squared Error (MSE) and Adjusted R2  to evaluate the different splits.
 
 For both, I would keep in mind the Bias_Variance Tradeoff, and plot this chart, opting for optimal model complexity.
 
